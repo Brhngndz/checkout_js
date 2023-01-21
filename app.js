@@ -1,5 +1,3 @@
-//! TOPLAM FONKSİYONLARI EKLENECEK!!
-
 const tikla = document.querySelector(".items");
 
 tikla.addEventListener("click", (e) => {
@@ -39,10 +37,11 @@ let calc = () => {
     toplam += +e.innerText;
   });
 
-  let taxx = toplam * 0.18;
-  let end = toplam + taxx;
+  let vergi = toplam * 0.18;
+  let son = toplam + taxx;
 
   document.querySelector("#SubTotal").innerText = "$" + toplam;
-  document.querySelector("#tax").innerText = "$" + taxx;
-  document.querySelector("#end").innerText = "$" + end;
+  document.querySelector("#tax").innerText = "$" + vergi;
+  document.querySelector("#end").innerText = "$" + son;
 };
+//Chuckepy
