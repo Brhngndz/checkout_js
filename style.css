@@ -33,7 +33,6 @@ h1 {
   align-items: flex-start;
   flex-direction: column;
   width: 60vh;
-
   padding: 1rem;
   border-radius: 2rem;
   background: rgb(157, 76, 149);
@@ -45,12 +44,8 @@ h1 {
   );
 }
 
-.items {
-  margin-top: 2rem;
-}
-
 .item {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   display: flex;
   justify-content: start;
   align-items: start;
