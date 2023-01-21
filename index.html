@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Checkout</title>
+  </head>
+  <body>
+    <h1>Chuckepy</h1>
+    <div class="main">
+      <div class="container">
+        <div class="items">
+          <div class="item">
+            <img src="./img/pc2.jpg" alt="" />
+            <div class="elements">
+              <div>
+                <p>Gaming Pc</p>
+                <p>$ <b>999</b> <del>$1250</del></p>
+              </div>
+              <div>
+                <div class="counter">
+                  <span class="minus">-</span>
+                  <span class="amount">0</span>
+                  <span class="plus">+</span>
+                </div>
+                <div>
+                  <button class="btn-remove">Remove</button>
+                </div>
+              </div>
+              <div>
+                <span>Product Total : $</span>
+                <span id="gPC" class="proTotal"> 0</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./img/monitor.jpg" alt="" />
+            <div class="elements">
+              <div>
+                <p>Monitor</p>
+                <p>$ <b>485</b> <del>$570</del></p>
+              </div>
+              <div>
+                <div class="counter">
+                  <span class="minus">-</span>
+                  <span class="amount">0</span>
+                  <span class="plus">+</span>
+                </div>
+                <div>
+                  <button class="btn-remove">Remove</button>
+                </div>
+              </div>
+              <div>
+                <span>Product Total : $</span>
+                <span id="monitor" class="proTotal">0</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./img/gaming set.jpg" alt="" />
+            <div class="elements">
+              <div>
+                <p>Gaming SET</p>
+                <p>$ <b>590</b> <del>$680</del></p>
+              </div>
+              <div>
+                <div class="counter">
+                  <span class="minus">-</span>
+                  <span class="amount">0</span>
+                  <span class="plus">+</span>
+                </div>
+                <div>
+                  <button class="btn-remove">Remove</button>
+                </div>
+              </div>
+              <div>
+                <span>Product Total : $</span>
+                <span id="gSet" class="proTotal">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="priceList">
+          <div class="end">
+            <span>Subtotal:</span>
+            <span id="SubTotal" class="stotal">$0</span>
+          </div>
+          <div class="end">
+            <span>Tax("%18):</span>
+            <span id="tax" class="tax">$0</span>
+          </div>
+          <div class="end">
+            <span>Shipping:</span>
+            <span class="ship">$10</span>
+          </div>
+          <div class="end">
+            <span>Total:</span>
+            <span id="end" class="all-total">$0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
