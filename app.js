@@ -38,10 +38,10 @@ let calc = () => {
   });
 
   let vergi = toplam * 0.18;
-  let son = toplam + taxx;
+  let son = toplam + vergi;
 
-  document.querySelector("#SubTotal").innerText = "$" + toplam;
-  document.querySelector("#tax").innerText = "$" + vergi;
-  document.querySelector("#end").innerText = "$" + son;
+  document.querySelector("#SubTotal").innerText = "$" + toplam.toFixed(2);
+  document.querySelector("#tax").innerText = "$" + vergi.toFixed(2);
+  document.querySelector("#end").innerText = "$" + son.toFixed(2);
 };
 //Chuckepy
