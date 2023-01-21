@@ -56,7 +56,9 @@ h1 {
   align-items: start;
   flex-direction: row;
 }
-
+.item p {
+  font-size: 1.2rem;
+}
 .item img {
   border-radius: 10px;
   width: 42%;
